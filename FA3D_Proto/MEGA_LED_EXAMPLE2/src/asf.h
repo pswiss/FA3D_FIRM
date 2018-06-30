@@ -52,71 +52,23 @@
  * running the ASF driver selector tool. Any changes will be discarded.
  */
 
-// From module: ADC - Analog to Digital Converter
-#include <adc.h>
-
-// From module: CPU Cycle Counter
-#include <cycle_counter.h>
-
-// From module: Compiler abstraction layer and code utilities
-#include <compiler.h>
-#include <status_codes.h>
-
-// From module: Delay routines
-#include <delay.h>
-
-// From module: EVK1100
-#include <led.h>
-
-// From module: FLASHC - Flash Controller
-#include <flashc.h>
-
-// From module: GPIO - General-Purpose Input/Output
+// From module: GPIO - General purpose Input/Output
 #include <gpio.h>
 
 // From module: Generic board support
 #include <board.h>
 
-// From module: INTC - Interrupt Controller
-#include <intc.h>
-
 // From module: IOPORT - General purpose I/O service
 #include <ioport.h>
 
-// From module: Interrupt management - UC3 implementation
+// From module: Interrupt management - megaAVR implementation
 #include <interrupt.h>
 
-// From module: PM Power Manager- UC3 A0/A1/A3/A4/B0/B1 implementation
-#include <power_clocks_lib.h>
-#include <sleep.h>
-
-// From module: PWM - UC3 A/B implementation
-#include <pwm.h>
+// From module: MEGA compiler driver
+#include <compiler.h>
+#include <status_codes.h>
 
 // From module: Part identification macros
 #include <parts.h>
-
-// From module: SPI - Serial Peripheral Interface
-#include <spi.h>
-
-// From module: SPI - UC3 implementation
-#include <spi_master.h>
-#include <spi_master.h>
-
-// From module: System Clock Control - UC3 A implementation
-#include <sysclk.h>
-
-// From module: TC - Timer/Counter
-#include <tc.h>
-
-// From module: TWI - Two-Wire Interface
-#include <twi.h>
-
-// From module: TWI - Two-Wire Interface - UC3 A/B implementation
-#include <twi_master.h>
-#include <uc3_twi/twi_master.h>
-
-// From module: WDT Watchdog Timer - UC3 A0/A1/A3/A4/B0/B1 implementation
-#include <wdt.h>
 
 #endif // ASF_H
